@@ -54,9 +54,9 @@ devise.provider('Auth', function AuthProvider() {
             ignoreAuth: ignoreAuth
         };
         if (data) {
-          var _data = {};
-          _data[_resourceName] = data;
-          config.data = _data;
+            var _data = {};
+            _data[_resourceName] = data;
+            config.data = _data;
         }
         return config;
     }
